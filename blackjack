@@ -1,6 +1,7 @@
 class program {
     static void Main(string [] args){
         Console.WriteLine("Esta es la primera frase escrita por miguel XD ")
+        Console.WriteLine("Esta es la segunda frase escrita por miguel XD ")
     }
 }
 //prueba
