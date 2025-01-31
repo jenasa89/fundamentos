@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Usuario\\Documents\\GitHub\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj": {}
+    "C:\\Users\\migue\\Documents\\GitHub\\PRO\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Usuario\\Documents\\GitHub\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj": {
+    "C:\\Users\\migue\\Documents\\GitHub\\PRO\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj",
+        "projectUniqueName": "C:\\Users\\migue\\Documents\\GitHub\\PRO\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj",
         "projectName": "Blackjack2",
-        "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj",
-        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\fundamentos\\Blackjack2\\Blackjack2\\obj\\",
+        "projectPath": "C:\\Users\\migue\\Documents\\GitHub\\PRO\\fundamentos\\Blackjack2\\Blackjack2\\Blackjack2.csproj",
+        "packagesPath": "C:\\Users\\migue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\migue\\Documents\\GitHub\\PRO\\fundamentos\\Blackjack2\\Blackjack2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\migue\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -36,7 +36,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
