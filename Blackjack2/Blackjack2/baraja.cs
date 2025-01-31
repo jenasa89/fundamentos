@@ -1,13 +1,11 @@
-public class Baraja ()
+public class Baraja
 {
     // Atributos de Baraja
     private Dictionary<string, int> valores; // Para almacenar las cartas y sus valores
     private Random random; // Generar numeros aleatorios 
-   
-   
-    
+
     // Constructor 
-    public Baraja()  //***ME DA ERROR AQUI Y NOSE COMO ARREGLARLO***
+    public Baraja()
     {
         valores = new Dictionary<string, int>(); // Inicia el Dicionario 
         random = new Random(); // Genera un numero aleatorio
@@ -52,22 +50,21 @@ public class Baraja ()
 
         return cartaElegida;
     }
-    
+
     // Metodo ObtenerValor
     public int ObtenerValor(string carta)
     {
-        return valores.ContainsKey(carta) ? valores [carta] : 0; // Si la carta esta en la baraja devuelve su valor, si no 0
+        return valores.ContainsKey(carta) ? valores[carta] : 0; // Si la carta esta en la baraja devuelve su valor, si no 0
     }
 
     // MEtodo CartasRestantes : Para saber cuantas cartas quedan sin saber su valor, se puede quitar si quereis
     public int CartasRestantes()
     {
         return valores.Count; // mostrara un ejemplo : "Quedan 3 cartas en la baraja" esto colocar en el main
-                                            // Console.WriteLine($"Quedan {baraja.CartasRestantes()} cartas en la baraja");
+                              // Console.WriteLine($"Quedan {baraja.CartasRestantes()} cartas en la baraja");
     }
 }
-  //Dejo emogis para poner en el main o en los mensajes para dejarlo mas chulo  🏦 ♠️ ♥️ ♣️ ♦️ 🂡 🂢 🂣 🂤 🂥 🂦 🂧 🂨 🂩 🂪 🂫 🂭 🂮 
+//Dejo emogis para poner en el main o en los mensajes para dejarlo mas chulo  🏦 ♠️ ♥️ ♣️ ♦️ 🂡 🂢 🂣 🂤 🂥 🂦 🂧 🂨 🂩 🂪 🂫 🂭 🂮 
 //💰  🪙  algunas se ven verdes pero cuando se quitan salen 
 
 
-    
