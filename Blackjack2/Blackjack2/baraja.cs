@@ -37,7 +37,7 @@ public class Baraja ()
         }
     }
 
-    //Creacio del metodo RobarCarta 
+    //Creacion del metodo RobarCarta 
     public string RobarCarta()
     {
         if (valores.Count == 0) // si no hay cartas en la baraja salta el mensaje, de lo contrario...
